@@ -74,5 +74,5 @@ def run(xmind_path):
 
 
 if __name__ == '__main__':
-    xmind_path_ = r'F:\Desktop\xmind_excel\用例模板.xmind'
+    xmind_path_ = r'F:\Desktop\coder\xmind_excel\用例模板.xmind'
     run(xmind_path_)
