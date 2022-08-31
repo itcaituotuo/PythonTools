@@ -230,3 +230,26 @@ lists：
 
 
 #### 4. 写入Excel（生成单sheet的Excel文件、生成固定的表头标题、列序号取值、固定标题外的自定义标题）
+
+```python
+    f = xlwt.Workbook()
+    # 生成单sheet的Excel文件，sheet名自取
+    sheet = f.add_sheet("签署模块", cell_overwrite_ok=True)
+
+    # 第一行固定的表头标题
+    row_header = ["序号", "模块", "功能点"]
+    for i in range(0, len(row_header)):
+        sheet.write(0, i, row_header[i])
+```
+
+```python
+            for n in range(0, len(lists[j])):
+                # 生成第一列的序号
+                sheet.write(j + index + 1, 0, j + index + 1)
+                sheet.write(j + index + 1, n + 1, lists[j][n])
+                # 自定义内容，比如：测试点/用例标题、预期结果、实际结果、操作步骤、优先级……
+                # 这里为了更加灵活，除序号、模块、功能点的标题固定，其余以【自定义+序号】命名，如：自定义1，需生成Excel表格后手动修改
+                if n >= 2:
+                    sheet.write(0, n + 1, "自定义" + str(n - 1))
+```
+
