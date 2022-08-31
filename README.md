@@ -85,7 +85,7 @@ def resolve_path(dict_, lists, title):
 def xmind_to_excel(list_, excel_path):
     f = xlwt.Workbook()
     # 生成单sheet的Excel文件，sheet名自取
-    sheet = f.add_sheet("签署模块", cell_overwrite_ok=True)
+    sheet = f.add_sheet("XX模块", cell_overwrite_ok=True)
 
     # 第一行固定的表头标题
     row_header = ["序号", "模块", "功能点"]
