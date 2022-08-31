@@ -144,7 +144,7 @@ if __name__ == '__main__':
 
 ### 代码解析
 
-#### 1. 调用xmind_to_dict()方法将XMind中所有内容取出并转行成字典
+#### 1. 调用xmind_to_dict()方法将XMind中所有内容取出并转成字典
 
 ```python
 xmind_dict = xmind_to_dict(xmind_path)
