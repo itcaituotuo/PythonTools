@@ -16,7 +16,7 @@ def resolve_path(dict_, lists, title):
     :param title:
     :return:
     """
-    # 去除title首尾空格
+    # 去除title的首尾空格
     title = title.strip()
     # 若title为空，则直接取value
     if len(title) == 0:
