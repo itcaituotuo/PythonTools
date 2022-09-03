@@ -4,7 +4,17 @@ Python编写的小工具集合
 
 
 
+## Python操作Excel
+
+./operate_excel
+
+
+
+
+
 ## XMind转Excel
+
+./xmind_to_excel
 
 ### 前言
 
@@ -55,11 +65,12 @@ Excel测试用例模板样式如下图所示：
 ### 完整代码
 
 ```python
-# author: 小趴蔡
+# author: 测试蔡坨坨
 # datetime: 2022/8/16 22:44
 # function: XMind转Excel
 
-from typing import List, Any
+from typing import Any, List
+
 import xlwt
 from xmindparser import xmind_to_dict
 
@@ -72,7 +83,7 @@ def resolve_path(dict_, lists, title):
     :param title:
     :return:
     """
-    # 去除title首尾空格
+    # 去除title的首尾空格
     title = title.strip()
     # 若title为空，则直接取value
     if len(title) == 0:
