@@ -69,6 +69,11 @@ def xmind_to_excel(list_, excel_path):
 
 
 def run(xmind_path):
+    """
+    运行主程序
+    :param xmind_path: XMind文件绝对路径
+    :return:
+    """
     # 将XMind转化成字典
     xmind_dict = xmind_to_dict(xmind_path)
     # print("将XMind中所有内容提取出来并转换成列表：", xmind_dict)
@@ -81,5 +86,5 @@ def run(xmind_path):
 
 
 if __name__ == '__main__':
-    xmind_path_ = r"F:\Desktop\coder\python_operate_files\用例模板.xmind"
+    xmind_path_ = r"F:\Desktop\coder\PythonTools\xmind_to_excel\用例模板.xmind"
     run(xmind_path_)
