@@ -2,7 +2,8 @@
 # datetime: 2022/8/16 22:44
 # function: XMind转Excel
 
-from typing import List, Any
+from typing import Any, List
+
 import xlwt
 from xmindparser import xmind_to_dict
 
