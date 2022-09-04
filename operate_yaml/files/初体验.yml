@@ -1,0 +1,8 @@
+req:
+  username: 测试蔡坨坨 # 这是姓名
+  gender: Boy
+  ip: 上海
+  blog: www.caituotuo.top
+res:
+  status: 1
+  code: 200

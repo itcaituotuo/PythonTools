@@ -1,0 +1,8 @@
+req:
+  username: $username # 这是姓名
+  gender: Boy
+  ip: 上海
+  blog: www.caituotuo.top
+res:
+  status: 1
+  code: 200

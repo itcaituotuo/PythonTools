@@ -1,0 +1,25 @@
+name:
+  - 测试蔡坨坨
+  - 小趴蔡
+  - 蔡蔡
+
+key: [ value1, value2, ... ]
+
+username:
+  - - 测试蔡坨坨
+    - 小趴蔡
+    - 蔡蔡
+  - - A
+    - B
+    - C
+
+companies:
+  - id: 1
+    name: caituotuo
+    price: 300W
+  - id: 2
+    name: 测试蔡坨坨
+    price: 500W
+# 'companies': [{'id': 1, 'name': 'caituotuo', 'price': '300W'}, {'id': 2, 'name': '测试蔡坨坨', 'price': '500W'}]
+
+companies2: [ { id: 1,name: caituotuo,price: 300W },{ id: 2,name: 测试蔡坨坨,price: 500W } ]

@@ -1,0 +1,23 @@
+string:
+  - 测试蔡坨坨
+  - 'Hello world caituotuo'  #可以使用双引号或者单引号包裹特殊字符
+  - 测试
+    蔡坨坨    #字符串可以拆成多行，每一行会被转化成一个空格
+boolean:
+  - TRUE  #true,True都可以
+  - FALSE  #false，False都可以
+float:
+  - 3.14
+  - 6.8523015e+5  #可以使用科学计数法
+int:
+  - 123
+  - 0b1010_0111_0100_1010_1110    #二进制表示
+null:
+  nodeName: 'node'
+  parent: ~  #使用~表示null
+  parent2: None  #使用None表示null
+  parent3: null  #使用null表示null
+date:
+  - 2018-02-17    #日期必须使用ISO 8601格式，即yyyy-MM-dd
+datetime:
+  - 2018-02-17T15:02:31+08:00    #时间使用ISO 8601格式，时间和日期之间使用T连接，最后使用+代表时区
