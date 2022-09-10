@@ -2,7 +2,6 @@
 # datetime: 2022/9/4 18:04
 # function: Python操作YAML文件
 
-import os
 from string import Template
 
 import yaml
